@@ -1,0 +1,17 @@
+{
+  "name": "clase-11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\u001b[A\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C clase 11\u001b[B\u001b[C\u001b[C\u001b[C",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "maca etcheverry",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.8.3",
+    "nodemon": "^1.17.3"
+  }
+}

@@ -1,0 +1,273 @@
+* {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    padding: 0rem;
+    margin: 0rem;
+} 
+
+body { 
+    margin: 0;}
+
+.main {
+    margin: 2rem 3rem 3rem 3rem;
+	padding: 1rem 1rem 1rem 1rem;}
+
+.body {
+    padding: 5rem 10rem  10rem 5rem}
+
+.cleaner {
+	clear: both;}
+
+/* menu*/
+.main-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #955f26;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    font-size: 12px}
+
+li {
+    float: left;}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+
+li a:hover:not(.active) {
+    background-color: #111;}
+
+.active {
+    background-color: #e1c1a4;}
+
+.jack {
+    float: right;
+    color: white;
+    padding-right: 2rem;
+    }
+
+/* titulo jack johnson*/ 
+.titulo { 
+    
+    width:100%;
+    height: 90vh;
+    font-size:55px;
+    color:#002456;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-position: 0 0,50% 50%;
+    background-size: auto,cover;
+    }
+
+    
+/* flecha */
+.arrow {
+    display: inline;
+    margin:0;
+    padding:0 ;
+    justify-content: center;
+    align-items: center;
+    color: #002456;
+    font-size: 40px;
+    max-width:100%;
+    line-height: 36px;
+    height: 100px;
+    text-decoration: none;
+    }
+
+#content div:hover, #content div.hover_effect {
+       transform: rotate(720deg) scale(2,2);}
+
+/* video */
+.video-responsive {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+
+    }
+.video-responsive source {
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+}
+
+/* header */
+header {
+    text-align:center;}
+
+.menu{ 
+    color:#955f26;} 
+
+/*home */
+.casaContainer {
+    float: left;
+    display: flex;
+    box-sizing: border-box;
+    padding: 30px;
+    margin:0;
+    padding-bottom:0;
+    padding-top:0;
+    }
+    
+.casaFoto{
+    float: left;
+    background-image: url(https://cdn2.dizkover.com/upload/img/orig/44-143298863875-jack-johnson-musician-snapchat-username.jpg); 
+    width:50%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    
+  }
+    
+.casaTexto {
+    float: left;
+    display:flex;
+    width:50%;
+    background-color: #002456;
+    
+    }
+
+.casap {
+    padding: 5rem;
+    color:white;
+    }
+       
+
+/*Primeros Pasos */
+.aboutCasa {
+    float: left;
+    display:flex;
+    width:50%;
+    
+    background-color:#002456;
+        }
+
+.aboutFoto{
+    float: left;
+    background-image: url(https://c.wallhere.com/photos/66/9c/jack_johnson_guitar_smock_hand_look-790414.jpg!d); 
+    width:50%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+
+/* titulos */
+h1 {
+    font-size:35px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+
+/* sub titulos */
+h2 { 
+    color: #ad702f;font-size: 20px; text-align: justify}
+
+/* */
+p {
+    
+    align-content: center;
+    word-spacing: 1rem;
+    font-size: 15px; 
+   }
+
+.transparente{
+    opacity: 0;
+    color:white;
+}
+
+
+/* tabla */ 
+.tapa {
+    width: 100px; 
+    height: 100px; 
+    }
+
+tbody { 
+    font-size: 13px}
+
+ol li {
+    color: #e68f3e;
+    font-size: 15px}
+
+p a { 
+    text-decoration: none;
+    color: #002456;}
+
+.colum2 a:hover { 
+    color:grey ; 
+    text-decoration: underline}
+
+.column2 a:visited {
+    color:blue; 
+    text-decoration:underline,}
+
+
+.colum {
+    float: left; 
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 20%;
+    }
+
+.colum2 { 
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 20%;
+}
+.colum3 { 
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 20%;
+}
+.colum4 { 
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 20%;
+}
+
+h3{
+    background-color:#edcf2e;
+    text-align: center;
+    color: #955f26;
+    font-size: 15px;
+}
+
+.cleaner {
+    clear: both;
+    float: left,}
+
+/* formulario */ 
+#contact {
+    text-align: center;
+    background: rgb(180, 180, 180);
+    padding: 1rem}
+
+#contacto {
+    font-size: 25px; 
+    text-align: center}
+
+
+
+/* footer */
+footer {color: #002456; font-size:15px; text-align: center}
+
+/* paleta color
+azul #002456
+celeste #64b9ee
+amarillo #edcf2e
+anaranjado #e1c1a4
+marron #955f26 /*
